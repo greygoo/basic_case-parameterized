@@ -4,7 +4,7 @@ include <lib/screw_holes.scad>
 
 // Example values
 // Render options
-$fn              = 32;
+/*$fn              = 32;
 case_part        = "case_all";
 render_mode      = "normal";
 
@@ -59,7 +59,7 @@ case(part=case_part,
      height_chead=height_chead,
      
      dia_bscrew=dia_bscrew,
-     loc_bscrews=loc_bscrews);
+     loc_bscrews=loc_bscrews);*/
 
      
 function calc_height_case(height_frame,
