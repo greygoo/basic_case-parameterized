@@ -31,7 +31,8 @@ wall_frame       = 1.2;
 rim              = 1;
 mki              = 2;
                   
-// ports
+// Port values and locations
+port_extend      = 20;
 cuts             = [[[0,0],[5,3],"front","sqr_indent"],       
                     [[0,0],[5,3],"back","sqr_indent"],
                     [[0,0],[5,3],"left","sqr"],
@@ -47,6 +48,7 @@ case(part=case_part,
      rim=rim,
      mki=mki,
      port_length=wall_frame+rim,
+     port_extend=port_extend,
           
      dim_board=dim_board,
      cuts=cuts,
